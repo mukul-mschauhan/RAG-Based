@@ -1,4 +1,4 @@
-📄 RAG with HuggingFace Embeddings + FAISS + Gemini 2.0 Flash
+# 📄 RAG with HuggingFace Embeddings + FAISS + Gemini 2.0 Flash
 - This is a lightweight RAG (Retrieval-Augmented Generation) demo using:
 - HuggingFace sentence-transformer embeddings
 - FAISS vector store for similarity search
