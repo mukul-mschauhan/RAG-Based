@@ -3,6 +3,7 @@ streamlit
 python-dotenv
 pyPDF2
 faiss-cpu
+langchain-core
 langchain
 langchain-huggingface
 langchain_community
