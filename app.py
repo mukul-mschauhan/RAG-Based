@@ -7,7 +7,7 @@ from langchain_community.vectorstores import FAISS # FAISS
 from langchain_text_splitters.character import CharacterTextSplitter # Chunking
 from langchain_core.documents import Document
 from langchain_huggingface import HuggingFaceEmbeddings
-from pypdf import PdfReader
+from PyPDF2 import PdfReader
 
 genai.configure(api_key=os.getenv('GOOGLE-API-KEY'))
 model = genai.GenerativeModel("gemini-2.0-flash")
