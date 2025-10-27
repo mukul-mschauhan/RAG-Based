@@ -5,7 +5,7 @@ import streamlit as st
 import google.generativeai as genai
 from langchain_community.vectorstores import FAISS # FAISS
 from langchain_text_splitters.character import CharacterTextSplitter # Chunking
-from langchain.schema import Document
+from langchain_core.documents import Document
 from langchain_huggingface import HuggingFaceEmbeddings
 from pypdf import PdfReader
 
